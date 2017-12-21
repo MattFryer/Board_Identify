@@ -16,6 +16,10 @@ make	KEYWORD2
 model	KEYWORD2
 mcu	KEYWORD2
 
+#######################################
+# Instances (KEYWORD2)
+#######################################
+
 
 ######################################
 # Constants (LITERAL1)
