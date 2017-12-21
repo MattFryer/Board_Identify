@@ -5,9 +5,7 @@
  *  Licensed under LGPL (free to modify and use as you wish)
  */
 
-//#define BOARD_IDENTIFY_WARNING
-
-namespace boardIdentify {
+namespace BoardIdentify {
   
 	// TEENSYDUINO - For some reason Teensyduino doesn't write the board as a define so we have to use the processor instead
 	#if defined(TEENSYDUINO)

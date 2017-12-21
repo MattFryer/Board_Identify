@@ -19,12 +19,12 @@ void setup() {
   
   // Print the board information to the serial using the defined terms
 	Serial.print(F("Board Make: "));
-  Serial.println(boardIdentify::make); 
+  Serial.println(BoardIdentify::make); 
   Serial.print(F("Board Model: "));
-  Serial.println(boardIdentify::model); 
+  Serial.println(BoardIdentify::model); 
 	Serial.print(F("Board MCU: "));
-  Serial.println(boardIdentify::mcu); 
-  // Board Indentify uses the namespace boardIdentify to prevent varibale name conflicts
+  Serial.println(BoardIdentify::mcu); 
+  // Board Indentify uses the namespace BoardIdentify to prevent varibale name conflicts
 }
 
 void loop() {
