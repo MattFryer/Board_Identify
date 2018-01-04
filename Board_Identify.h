@@ -4,6 +4,8 @@
  *  Created by Matt Fryer on 2017-10-04.
  *  Licensed under LGPL (free to modify and use as you wish)
  */
+ 
+#pragma once
 
 namespace BoardIdentify {
   
