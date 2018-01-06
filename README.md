@@ -3,8 +3,10 @@ An Arduino library which allows identification of the make, model and MCU of boa
 
 Please note, some boards share the same identifiers and so can't be distinguished between. When this is the case, both boards will be returned.
 
+## How to Install
+For details on how to install libraries in the Arduino IDE, please see the [Arduino website](https://www.arduino.cc/en/Guide/Libraries).
 
-## How to use
+## How to Use
 A full example is provided with the library and can be found in the Arduino IDE under "File->Examples->Board_Identify".
 
 Firstly, you must include the library in your sketch:
