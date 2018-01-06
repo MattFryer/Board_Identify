@@ -12,6 +12,7 @@ BoardIdentify	KEYWORD1
 #######################################
 # Methods and Functions (KEYWORD2)
 #######################################
+type	KEYWORD2
 make	KEYWORD2
 model	KEYWORD2
 mcu	KEYWORD2
