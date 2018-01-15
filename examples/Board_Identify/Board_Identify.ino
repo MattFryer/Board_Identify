@@ -8,7 +8,7 @@
 // Adding this line before the library is included will cause a warning in the compile output window containing the identified board
 #define BOARD_IDENTIFY_WARNING
 // If warnings still don't display, ensure "File->Preferences->compiler warnings" is set to "Default".
-// Even doing this, some boards still won't display the warning in the compile window but the constant will still be created.
+// Even doing this, some boards still won't display the warning in the compile window but the constants will still be created.
 
 // Include the library
 #include <Board_Identify.h>
