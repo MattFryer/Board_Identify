@@ -4,14 +4,15 @@
 #######################################
 
 #######################################
-# Datatypes & Namespaces (DATA_TYPE)
+# Datatypes (DATA_TYPE)
+#######################################
+# 3 tabs required to make it bold?
+
+#######################################
+# Classes & Namespaces (KEYWORD1)
 #######################################
 
-BoardIdentify	DATA_TYPE
-
-#######################################
-# Classes (KEYWORD1)
-#######################################
+BoardIdentify	KEYWORD1
 
 #######################################
 # Methods and Functions (KEYWORD2)
