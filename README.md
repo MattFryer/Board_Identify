@@ -50,6 +50,4 @@ Over 100 boards/controllers are currently supported including:
 * All Teensy
 
 ## Planned Improvements/Changes
-1. The addition of Seeeduino boards is currently being investigated. However, they use the same board identifiers as Arduino/Genuino boards and so it is not clear how to uniquely identify them. 
-2. A defined param to make all but type optional. This will likely offer no benefit as the compiler should not allocate RAM or progmem to constants.
-3. Publishing to the Arduino IDE Library list.
+For planned changes, improvements and known bugs please visit the [Github issues tracker](https://github.com/MattFryer/Board_Identify/issues).
