@@ -3,6 +3,7 @@
 [![GitHub download](https://img.shields.io/github/downloads/MattFryer/Board_Identify/total.svg)](https://github.com/MattFryer/Board_Identify/releases/latest)
 [![GitHub stars](https://img.shields.io/github/stars/MattFryer/Board_Identify.svg)](https://github.com/MattFryer/Board_Identify/stargazers)
 [![GitHub issues](https://img.shields.io/github/issues/MattFryer/Board_Identify.svg)](https://github.com/MattFryer/Board_Identify/issues)
+[![Codacy grade](https://img.shields.io/codacy/grade/05e2e79ae90d4b9489689f918ad2ccb5.svg)](https://www.codacy.com/app/MattFryer/Board_Identify)
 [![GitHub license](https://img.shields.io/github/license/MattFryer/Board_Identify.svg)](https://github.com/MattFryer/Board_Identify/blob/master/LICENSE)
 
 # Board Identify
