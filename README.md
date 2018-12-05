@@ -1,10 +1,10 @@
-[![GitHub version](https://img.shields.io/github/release/MattFryer/Board_Identify.svg)](https://github.com/MattFryer/Board_Identify/releases/latest)
-[![GitHub Release Date](https://img.shields.io/github/release-date/MattFryer/Board_Identify.svg)](https://github.com/MattFryer/Board_Identify/releases/latest)
-[![GitHub download](https://img.shields.io/github/downloads/MattFryer/Board_Identify/total.svg)](https://github.com/MattFryer/Board_Identify/releases/latest)
-[![GitHub stars](https://img.shields.io/github/stars/MattFryer/Board_Identify.svg)](https://github.com/MattFryer/Board_Identify/stargazers)
-[![GitHub issues](https://img.shields.io/github/issues/MattFryer/Board_Identify.svg)](https://github.com/MattFryer/Board_Identify/issues)
-[![Codacy grade](https://img.shields.io/codacy/grade/05e2e79ae90d4b9489689f918ad2ccb5.svg)](https://www.codacy.com/app/MattFryer/Board_Identify)
-[![GitHub license](https://img.shields.io/github/license/MattFryer/Board_Identify.svg)](https://github.com/MattFryer/Board_Identify/blob/master/LICENSE)
+[![GitHub version](https://img.shields.io/github/release/MattFryer/Board_Identify.svg?logo=github&logoColor=ffffff)](https://github.com/MattFryer/Board_Identify/releases/latest)
+[![GitHub Release Date](https://img.shields.io/github/release-date/MattFryer/Board_Identify.svg?logo=github&logoColor=ffffff)](https://github.com/MattFryer/Board_Identify/releases/latest)
+[![GitHub download](https://img.shields.io/github/downloads/MattFryer/Board_Identify/total.svg?logo=github&logoColor=ffffff)](https://github.com/MattFryer/Board_Identify/releases/latest)
+[![GitHub stars](https://img.shields.io/github/stars/MattFryer/Board_Identify.svg?logo=github&logoColor=ffffff)](https://github.com/MattFryer/Board_Identify/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/MattFryer/Board_Identify.svg?logo=github&logoColor=ffffff)](https://github.com/MattFryer/Board_Identify/issues)
+[![Codacy grade](https://img.shields.io/codacy/grade/05e2e79ae90d4b9489689f918ad2ccb5.svg?logo=codacy&logoColor=ffffff)](https://www.codacy.com/app/MattFryer/Board_Identify)
+[![GitHub license](https://img.shields.io/github/license/MattFryer/Board_Identify.svg?logo=gnu&logoColor=ffffff)](https://github.com/MattFryer/Board_Identify/blob/master/LICENSE)
 
 # Board Identify
 An Arduino library which allows identification of the make, model and MCU of board/controller which the code was compiled for. Currently supports identification of over 100 different boards including all Arduino/Genuino, Teensy, ESP8266, ESP32, BBC micro:bit and Digispark boards.
