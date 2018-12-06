@@ -34,7 +34,7 @@ Serial.println(BoardIdentify::model);
 Serial.print(F("Board MCU: "));
 Serial.println(BoardIdentify::mcu); 
 ```
-It is advised to use BoardIdentofy::type for any logic as it will never be changed and so should maintain future compatibility. 
+It is advised to use BoardIdentify::type for any logic as it will never be changed and so should maintain future compatibility. 
 
 Adding this line before the library is included will cause a warning in the compile output window containing the identified board:
 ```cpp
