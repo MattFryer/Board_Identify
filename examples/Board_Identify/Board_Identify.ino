@@ -14,27 +14,27 @@
 #include <Board_Identify.h>
 
 void setup() {
-  // Open the serial
-  Serial.begin(9600);
+    // Open the serial
+    Serial.begin(9600);
   
-  // Print the board information to the serial using the defined terms
-	Serial.print(F("Board Type: "));
-	Serial.println(BoardIdentify::type); 
-	Serial.print(F("Board Make: "));
-  Serial.println(BoardIdentify::make); 
-  Serial.print(F("Board Model: "));
-  Serial.println(BoardIdentify::model); 
-	Serial.print(F("Board MCU: "));
-  Serial.println(BoardIdentify::mcu); 
-  // Board Indentify uses the namespace BoardIdentify to prevent variable name conflicts
+    // Print the board information to the serial using the defined terms
+    Serial.print(F("Board Type: "));
+    Serial.println(BoardIdentify::type);
+    Serial.print(F("Board Make: "));
+    Serial.println(BoardIdentify::make);
+    Serial.print(F("Board Model: "));
+    Serial.println(BoardIdentify::model);
+    Serial.print(F("Board MCU: "));
+    Serial.println(BoardIdentify::mcu);
+    // Board Indentify uses the namespace BoardIdentify to prevent variable name conflicts
 	
-	// BoardIdentofy::type is a unique integer that will never be changed and so should maintain future compatibility. 
-	// It is advised to use this for any logic such as:
-	if (BoardIdentify::type == 4) {
-		Serial.print(F("It is an Arduino Nano"));
-	} else {
-		Serial.print(F("It is NOT an Arduino Nano"));
-	}
+    // BoardIdentofy::type is a unique integer that will never be changed and so should maintain future compatibility. 
+    // It is advised to use this for any logic such as:
+    if (BoardIdentify::type == 4) {
+        Serial.print(F("It is an Arduino Nano"));
+    } else {
+        Serial.print(F("It is NOT an Arduino Nano"));
+    }
 }	
 
 void loop() {
