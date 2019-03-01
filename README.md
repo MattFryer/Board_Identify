@@ -46,16 +46,16 @@ Even doing this, some boards still won't display the warning in the compile wind
 ## Currently Supported Boards
 Over 100 boards/controllers are currently supported including:
 
-*  All Arduino/Genuino AVR 
-*  All Arduino SAM
-*  All Arduino SAMD
-*  All Adafruit AVR
-*  All Arduboy
-*  All Digispark
-*  ESP8266 boards including NodeMCU, SparkFun ESP8266 Thing, WeMos boards and Adafruit ESPino
-*  ESP32 based boards inlcuding Node32s, Adafruit ESP32 Feather and SparkFun ESP32 Thing
-*  nRF52832 / nRF51 based boards including BBC micro:bit and RedBearLab boards
-*  All Teensy
+* All Arduino/Genuino AVR 
+* All Arduino SAM
+* All Arduino SAMD
+* All Adafruit AVR
+* All Arduboy
+* All Digispark
+* ESP8266 boards including NodeMCU, SparkFun ESP8266 Thing, WeMos boards and Adafruit ESPino
+* ESP32 based boards inlcuding Node32s, Adafruit ESP32 Feather and SparkFun ESP32 Thing
+* nRF52832 / nRF51 based boards including BBC micro:bit and RedBearLab boards
+* All Teensy
 
 ## Planned Improvements/Changes
 For planned changes, improvements and known bugs please visit the [Github issues tracker](https://github.com/MattFryer/Board_Identify/issues).
