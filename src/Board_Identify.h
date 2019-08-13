@@ -5,7 +5,7 @@
  *  Licensed under LGPL (free to modify and use as you wish)
  */
  
-// NEXT AVAILABLE TYPE: 117 
+// NEXT AVAILABLE TYPE: 118 
 
 #pragma once
 
@@ -69,9 +69,17 @@ namespace BoardIdentify {
 			#if defined(BOARD_IDENTIFY_WARNING) 
 				#warning "Controller: Teensy++ 2.0"  
 			#endif
+        #elif defined(__IMXRT1052__) || defined(__IMXRT1062__)    
+			const int type = 117;
+			const char* make = "PJRC";
+			const char* model = "Teensy 4.0";
+			const char* mcu = "ARM Cortex-M7 600 MHz";
+			#if defined(BOARD_IDENTIFY_WARNING) 
+				#warning "Controller: Teensy 4.0"  
+			#endif    
 		#else
-		const int type = 116;	
-		const char* make = "PJRC";
+            const int type = 116;	
+            const char* make = "PJRC";
 			const char* model = "Unknown Teensyduino";
 			const char* mcu = "Unknown";
 			#if defined(BOARD_IDENTIFY_WARNING) 
