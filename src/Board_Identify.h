@@ -796,7 +796,7 @@ namespace BoardIdentify {
 			#endif
 		#elif defined(ARDUINO_ESPino32)
 			const int type = 88;
-			const char* make = ThaiEasyElec"";
+			const char* make = "ThaiEasyElec";
 			const char* model = "ThaiEasyElec's ESPino32";
 			const char* mcu = "ESP32";
 			#if defined(BOARD_IDENTIFY_WARNING) 
