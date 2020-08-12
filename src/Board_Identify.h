@@ -5,7 +5,7 @@
  *  Licensed under LGPL (free to modify and use as you wish)
  */
  
-// NEXT AVAILABLE TYPE: 118 
+// NEXT AVAILABLE TYPE: 119 
 
 #pragma once
 
@@ -617,6 +617,14 @@ namespace BoardIdentify {
 			#if defined(BOARD_IDENTIFY_WARNING) 
 				#warning "Controller: WeMos D1/D1 R2/mini"
 			#endif
+		#elif defined(ARDUINO_ESP8266_WEMOS_D1MINIPRO)
+			const int type = 118;
+			const char* make = "WeMos";
+			const char* model = "WeMos D1 mini pro";
+			const char* mcu = "ESP8266";
+			#if defined(BOARD_IDENTIFY_WARNING) 
+				#warning "Controller: WeMos D1 mini pro"
+			#endif	
 		#elif defined(ARDUINO_WIFINFO)
 			const int type = 66;
 			const char* make = "WifInfo";
