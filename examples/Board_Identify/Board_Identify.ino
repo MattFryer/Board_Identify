@@ -28,7 +28,7 @@ void setup() {
     Serial.println(BoardIdentify::mcu);
     // Board Indentify uses the namespace BoardIdentify to prevent variable name conflicts
 	
-    // BoardIdentofy::type is a unique integer that will never be changed and so should maintain future compatibility. 
+    // BoardIdentify::type is a unique integer that will never be changed and so should maintain future compatibility. 
     // It is advised to use this for any logic such as:
     if (BoardIdentify::type == 4) {
         Serial.print(F("It is an Arduino Nano"));
